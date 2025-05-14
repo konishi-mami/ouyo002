@@ -1,0 +1,251 @@
+@media (max-width: 768px){
+  html {
+    line-height: 1;
+  }
+  body{
+    font-family: Noto Sans;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    letter-spacing: 0%;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .header{
+    height: 50px;
+  }
+  .header__inner{
+    height: 50px;
+    background-color: hsl(231, 77%, 75%);
+    padding-left:20px;
+    display: flex;
+    justify-content: space-between;
+    place-items: center; 
+  }
+  .logo-box{
+    background-color: #ffffff;
+    width: 106px;
+    align-items: center;
+  }
+  .logo-box img{
+    width: 100%;
+    place-items: center; 
+  }
+  .header__list_pc{
+    display: none;
+  }
+  .hamburger-menu_sp{
+    width: 50px;
+    height: 50px;
+    background-color: #37952f;
+    border: none;
+    justify-content: center;
+  }
+  .hamburger-menu_sp span {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.top__inner{
+  background-color: #e1f08e;
+  background-image: url(./img/green.png);
+  object-fit: cover;
+  height: 200px;
+}
+ .top__text{
+  width: 138px;
+  height: 81px;
+  margin-left: auto;
+  margin-right: auto;
+  place-items: center; 
+  justify-content: center;
+ }
+  .top__service{
+  font-family: Oswald;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 20%;
+  padding: 65px 0 0 0;
+ }
+  .top__jigyou{
+    font-family: Noto Sans;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 20%;
+    text-align: center;
+  }
+  .catch{
+  background-color: hsl(0, 90%, 73%);
+  }
+  .catch__inner{
+  padding: 46px 20px 39px 20px;
+  }
+  .catch__title{
+  font-family: Noto Sans;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 39.6px;
+  letter-spacing: 0%;
+  padding-bottom: 21px;
+  }
+  .catch__text{
+  font-family: Noto Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  }
+  .service01{
+  }
+  .service__inner{
+    margin: 0 auto;
+        position: relative; 相対配置
+        height: 200px;
+
+  }
+  .service01__cover{
+    background-image: url(./img/img_service001.png);
+    background-size: cover;
+    background-position:center ;
+    height: 200px;
+  }
+  .service01__overtext{
+    position: absolute;
+    left: 0;
+    top: 0; 
+    background-color: #fff; 
+    border: 1px solid #37952F;
+    padding: 20px; 
+    margin-left: 20px;
+    margin-right: 20px;
+    top: calc(100% - 40px);
+    z-index: 1; 
+    box-sizing: border-box;
+    display: block;
+    }
+
+  .service01_titleA{
+    font-family: Noto Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #37952F;
+  }
+  .service01_titleB{
+   font-family: Noto Sans;
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 32px;
+   letter-spacing: 0%;
+   padding-bottom: 24px;
+  }
+  .service01__image{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  
+  
+  
+  .contact__inner{
+    background-color: #37952F;
+    color: #ffffff;
+    text-align: center;
+    padding: 47px 20px 0 20px;
+    font-size: 14px;
+  }
+  .contact__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 30px;
+  }
+  .contact__text01{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .contact__text02{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27.56px;
+    border: 1.84px solid #FFFFFF
+  }
+  .contact__info{
+    display: flex;
+    flex-direction: column;
+  }
+  .TEL{
+    font-family: Oswald;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .namber{
+    font-family: Oswald;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+  .contact__tel{
+    display: flex;
+    place-items: end; 
+    justify-content: center;
+    gap: 10px;
+}
+  .footer{
+    background-color:  #333333;
+    color: #ffffff;
+    padding: 20px;
+  }
+  .footer__inner{
+    width: 100%;
+    margin: 0 auto; /* 中央寄せ */
+  }
+  .footer__kakomi{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  .footer__item{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 20px;
+  }
+  .footer__list{
+    border-bottom: 1px solid white; /* 下線として白いボーダーを付ける */    */
+    text-align: left;
+    padding-bottom: 10px;
+  }
+  .copyright{
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  }
+
+
+

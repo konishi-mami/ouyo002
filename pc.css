@@ -1,0 +1,307 @@
+@media (min-width: 769px){
+  html {
+    line-height: 1;
+  }
+  body{
+    font-family: Noto Sans;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    letter-spacing: 0%;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .header{
+  }
+  .header__inner{ 
+    height: 100px;
+    background-color: hwb(230 75% 5%);
+    padding:0 50px;
+    display: flex;
+    justify-content: space-between;
+    place-items: center; 
+  }
+  .logo-box{
+    background-color: #ffffff;
+    width: 210px;
+    align-items: center;
+  }
+  .logo-box img{
+    width: 100%;
+    place-items: center; 
+  }
+  .header__list_pc{
+    width: 614px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  .hamburger-menu_sp{
+    display: none;
+  }
+  .hamburger-menu_sp span {
+    display: none;
+  }
+  .top__inner{
+    background-color: #e1f08e;
+    background-image: url(./img/green.png);
+    background-size: cover;
+    height: 460px;
+    display: flex;
+    align-items: center;
+  }
+  .top__text{
+    width: 221px;
+    height: 123px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .top__service{
+  font-family: Oswald;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 20%;
+  text-align: left;
+ }
+  .top__jigyou{
+    font-family: Noto Sans;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 20%;
+    text-align: center;
+  }
+  .catch{
+    /* background-color: hsl(0, 90%, 73%); */
+  }
+  .catch__inner{
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 74px 0 38px 0;
+  }
+  .catch__title{
+    font-family: Noto Sans;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 39.6px;
+    letter-spacing: 0%;
+    padding-bottom: 21px;
+  }
+  .catch__text{
+    font-family: Noto Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .service01{
+   margin-bottom: 111px;
+  }
+  .service01__inner{
+    background-color: #a0e38d;
+    max-width: 1080px;
+    height: 500px; 
+    margin: 0 auto;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+  .service01__cover{
+    background-image: url(./img/img_service001.png); 
+    background-size: cover;
+    width: 60%;
+    height: 100%; 
+    z-index: 1; 
+  }
+  .service01__content{
+    width: 40%;
+    padding-left: 20px;
+    padding-top: 50px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    z-index: 2; 
+  }
+  .service01__overtext{
+    /* width: 45%; */
+  }
+  .service01_titleA{
+    font-family: Noto Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #37952F;
+  }
+  .service01_titleB{
+   font-family: Noto Sans;
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 32px;
+   letter-spacing: 0%;
+   padding-bottom: 24px;
+  }
+  .service01__image{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px; 
+   width: 100%;
+   gap: 20px;
+
+   margin-right: 28px;
+  }
+  .service02__inner{
+    background-color: hsl(64, 80%, 76%);
+    max-width: 1080px;
+    height: 500px; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .service02__cover{
+    background-image: url(./img/img_service002.png);
+    background-size: cover;
+    width: 40%;
+    height: 100%; 
+  }
+  .service02__content{
+    position: relative; 相対配置
+    width: 60%;
+    height: 100%; 
+    background-color: #fff;
+    border: 1px solid #37952F;
+    padding-top: 50px;
+    box-sizing: border-box;
+    padding: 40px;
+  }
+  .service02__overtext{
+    position: absolute;
+    left: 0;
+    top: 0; 
+    top: calc(100% - 40px);
+
+  }
+
+
+    .service02_titleA{
+    font-family: Noto Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #37952F;
+  }
+  .service02_titleB{
+   font-family: Noto Sans;
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 32px;
+   letter-spacing: 0%;
+   padding-bottom: 24px;
+  }
+  .service02__image{
+    display: flex;
+    justify-content: start;
+       margin-top: 20px; 
+    gap: 20px;
+  }
+  .contact__inner{
+    background-color: #37952F;
+    color: #ffffff;
+    text-align: center;
+    padding: 47px 20px 0 20px;
+    font-size: 14px;
+  }
+  .contact__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 30px;
+  }
+  .contact__text01{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .contact__text02{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27.56px;
+    border: 1.84px solid #FFFFFF
+  }
+  .contact__info{
+    display: flex;
+    flex-direction: column;
+  }
+  .TEL{
+    font-family: Oswald;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .namber{
+    font-family: Oswald;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+  .contact__tel{
+    display: flex;
+    place-items: end; 
+    justify-content: center;
+    gap: 10px;
+}
+  .footer{
+    background-color:  #333333;
+    color: #ffffff;
+    padding: 20px;
+  }
+  .footer__inner{
+    width: 100%;
+    margin: 0 auto; /* 中央寄せ */
+  }
+  .footer__kakomi{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  .footer__item{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 20px;
+  }
+  .footer__list{
+    border-bottom: 1px solid white; /* 下線として白いボーダーを付ける */    */
+    text-align: left;
+    padding-bottom: 10px;
+  }
+  .copyright{
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  }
+
+
+
